@@ -13,23 +13,16 @@ import MCPRecommendations from "@/components/landing/MCPRecommendations";
 
 const Index: React.FC = () => {
   return (
-    <div className="flex flex-col justify-center px-20 py-px max-md:pl-5">
-      <div className="bg-white relative w-full max-w-screen-xl max-md:max-w-full">
+    <div className="flex flex-col w-full">
+      <div className="relative w-full bg-white">
         <Navbar />
         <Hero />
-        <div className="py-8"></div>
         <MCPShowcase />
-        <div className="py-12"></div>
         <FeatureSection />
-        <div className="py-12"></div>
         <ManagementSection />
-        <div className="py-12"></div>
         <MCPRecommendations />
-        <div className="py-12"></div>
         <PricingSection />
-        <div className="py-12"></div>
         <TestimonialsSection />
-        <div className="py-12"></div>
         <CTASection />
         <Footer />
       </div>

@@ -1,5 +1,7 @@
+
 import React from "react";
 import { cn } from "@/lib/utils";
+import { Quote } from "lucide-react";
 
 interface TestimonialCardProps {
   avatar: string;
@@ -19,28 +21,31 @@ const TestimonialCard: React.FC<TestimonialCardProps> = ({
   return (
     <div
       className={cn(
-        "bg-white shadow-[0px_10px_15px_rgba(0,0,0,0.08)] flex w-full flex-col overflow-hidden items-stretch justify-center py-0.5 rounded-[20px]",
+        "bg-white shadow-sm hover:shadow-md transition-shadow duration-300 rounded-2xl overflow-hidden",
         className,
       )}
     >
-      <div className="border flex w-full flex-col items-stretch px-10 py-[42px] rounded-[20px] border-[rgba(34,34,34,0.1)] border-solid max-md:px-5">
+      <div className="p-8 relative">
+        <Quote className="absolute top-6 right-6 h-8 w-8 text-gray-100" />
+        
         {content && (
-          <p className="text-[15px] font-normal leading-6 mb-[26px]">
-            {content}
+          <p className="text-gray-700 mb-6 relative z-10">
+            "{content}"
           </p>
         )}
-        <div className="flex items-stretch gap-2.5">
+        
+        <div className="flex items-center gap-3">
           <img
             src={avatar}
             alt={name || username}
-            className="aspect-[1] object-contain w-[42px] shrink-0 rounded-[42px]"
+            className="w-12 h-12 rounded-full object-cover border-2 border-gray-100"
           />
-          <div className="flex flex-col items-stretch">
+          <div>
             {name && (
-              <div className="text-[15px] font-medium leading-none">{name}</div>
+              <div className="text-gray-900 font-medium">{name}</div>
             )}
             {username && (
-              <div className="text-[15px] font-normal leading-loose mt-[7px]">
+              <div className="text-gray-500 text-sm">
                 {username}
               </div>
             )}
