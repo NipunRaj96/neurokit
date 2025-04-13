@@ -1,4 +1,3 @@
-
 import React from "react";
 
 const Footer: React.FC = () => {
@@ -12,7 +11,7 @@ const Footer: React.FC = () => {
               alt="Logo"
               className="aspect-[0.97] object-contain w-[40px]"
             />
-            <span className="text-white text-lg font-bold">Amplify Marketplace</span>
+            <span className="text-white text-lg font-bold">Amplify</span>
           </div>
           <p className="text-white text-[13px] font-medium leading-[18px] tracking-[-0.2px] mt-4 ml-5 max-md:ml-2.5">
             Discover and deploy Model Control Panels (MCPs) <br />

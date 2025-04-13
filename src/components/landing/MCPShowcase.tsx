@@ -1,4 +1,3 @@
-
 import React from "react";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
@@ -63,17 +62,14 @@ const MCPShowcase: React.FC = () => {
   ];
 
   return (
-    <section id="marketplace" className="z-0 flex w-full flex-col overflow-hidden items-center px-10 py-28 max-md:max-w-full max-md:px-5">
+    <section id="marketplace" className="z-0 flex w-full flex-col overflow-hidden items-center px-10 py-32 max-md:max-w-full max-md:px-5">
       <div className="flex w-[508px] max-w-full flex-col items-center text-black font-semibold text-center tracking-[-1px]">
-        <Badge className="w-56 text-center">Top Model Control Panels</Badge>
-        <h2 className="text-[52px] leading-none self-stretch mt-7 max-md:max-w-full max-md:text-[40px]">
-          Discover powerful
-        </h2>
-        <h2 className="text-[51px] leading-none mt-[11px] max-md:text-[40px]">
-          MCPs for your LLMs
+        <Badge className="w-56 text-center mb-6">Top Model Control Panels</Badge>
+        <h2 className="text-[52px] leading-tight self-stretch max-md:max-w-full max-md:text-[40px]">
+          Discover powerful MCPs for your LLMs
         </h2>
       </div>
-      <p className="text-black text-xl font-normal leading-[31px] text-center mt-7 max-md:max-w-full">
+      <p className="text-black text-xl font-normal leading-[31px] text-center mt-8 max-md:max-w-full">
         Browse our curated collection of Model Control Panels that <br />
         enhance your LLM capabilities across diverse use cases.
       </p>
@@ -93,7 +89,7 @@ const MCPShowcase: React.FC = () => {
         ))}
       </div>
       
-      <Button variant="outline" className="mt-12">
+      <Button variant="outline" size="lg" className="mt-16">
         View All MCPs
       </Button>
     </section>

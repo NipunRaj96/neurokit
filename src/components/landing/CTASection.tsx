@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 
 const CTASection: React.FC = () => {
   return (
-    <section className="z-0 flex w-full flex-col items-center justify-center px-10 py-[120px] max-md:max-w-full max-md:px-5 max-md:py-[100px]">
+    <section className="z-0 flex w-full flex-col items-center justify-center px-10 py-[140px] max-md:max-w-full max-md:px-5 max-md:py-[100px]">
       <div className="flex w-[800px] max-w-full flex-col">
         <div className="z-10 mt-[-54px] mr-[-204px] mb-[-311px] max-md:max-w-full max-md:mb-2.5">
           <div className="gap-5 flex max-md:flex-col max-md:items-stretch">
@@ -46,9 +46,9 @@ const CTASection: React.FC = () => {
           </div>
         </div>
       </div>
-      <div className="flex items-center gap-6 overflow-hidden text-[15px] font-medium text-center justify-center mt-10">
-        <Button size="lg">Explore the Marketplace</Button>
-        <Button variant="outline" size="lg">Request Demo</Button>
+      <div className="flex items-center gap-6 overflow-hidden text-[15px] font-medium text-center justify-center mt-16">
+        <Button size="lg" className="px-8">Explore the Marketplace</Button>
+        <Button variant="outline" size="lg" className="px-8">Request Demo</Button>
       </div>
     </section>
   );

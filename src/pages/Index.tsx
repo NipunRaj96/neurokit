@@ -17,12 +17,19 @@ const Index: React.FC = () => {
       <div className="bg-white relative w-full max-w-screen-xl max-md:max-w-full">
         <Navbar />
         <Hero />
+        <div className="py-8"></div>
         <MCPShowcase />
+        <div className="py-12"></div>
         <FeatureSection />
+        <div className="py-12"></div>
         <ManagementSection />
+        <div className="py-12"></div>
         <MCPRecommendations />
+        <div className="py-12"></div>
         <PricingSection />
+        <div className="py-12"></div>
         <TestimonialsSection />
+        <div className="py-12"></div>
         <CTASection />
         <Footer />
       </div>
