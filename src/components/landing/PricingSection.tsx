@@ -1,3 +1,4 @@
+
 import React from "react";
 import PricingCard from "./PricingCard";
 
@@ -10,64 +11,64 @@ const PricingSection: React.FC = () => {
       buttonText: "Get started for free",
       buttonVariant: "default" as const,
       features: [
-        "Up to 5 project members",
-        "Unlimited tasks and projects",
-        "2GB storage",
-        "Integrations",
-        "Basic support",
+        "Access to 10 free MCPs",
+        "Basic MCP analytics",
+        "1 AI recommendation per day",
+        "Community support",
+        "Single user account",
       ],
       dark: false,
     },
     {
       name: "Pro",
-      price: "$9",
+      price: "$49",
       popular: true,
       buttonText: "Sign up now",
       buttonVariant: "white" as const,
       features: [
-        "Up to 50 project members",
-        "Unlimited tasks and projects",
-        "50GB storage",
-        "Integrations",
+        "Access to all 200+ MCPs",
+        "Advanced MCP analytics",
+        "Unlimited AI recommendations",
         "Priority support",
-        "Advanced analytics",
-        "Export capabilities",
+        "5 team members",
+        "Custom MCP creation",
+        "API access",
       ],
       dark: true,
     },
     {
-      name: "Business",
-      price: "$19",
+      name: "Enterprise",
+      price: "$199",
       popular: false,
-      buttonText: "Sign up now",
+      buttonText: "Contact sales",
       buttonVariant: "default" as const,
       features: [
-        "Unlimited project members",
-        "Unlimited tasks and projects",
-        "200GB storage",
-        "Integrations",
+        "All Pro features",
+        "Unlimited team members",
+        "White-labeled MCPs",
+        "Custom integration support",
         "Dedicated account manager",
-        "Custom fields",
-        "Advanced analytics",
-        "Export capabilities",
-        "API access",
+        "SLA guarantees",
         "Advanced security features",
+        "Custom MCP marketplace",
+        "API customization",
+        "Priority feature requests",
       ],
       dark: false,
     },
   ];
 
   return (
-    <section className="bg-white z-0 flex w-full flex-col overflow-hidden items-center justify-center px-20 py-[85px] max-md:max-w-full max-md:px-5">
+    <section id="pricing" className="bg-white z-0 flex w-full flex-col overflow-hidden items-center justify-center px-20 py-[85px] max-md:max-w-full max-md:px-5">
       <div className="flex w-full max-w-[1000px] flex-col items-center max-md:max-w-full">
         <h2 className="text-black text-[51px] font-semibold leading-none tracking-[-1px] text-center max-md:text-[40px]">
-          Pricing
+          Pricing Plans
         </h2>
         <p className="text-black text-xl font-normal leading-loose text-center mt-[27px]">
-          Free forever. Upgrade for unlimited tasks,{" "}
+          Choose the plan that fits your needs.
         </p>
         <p className="text-black text-xl font-normal leading-loose text-center mt-[11px]">
-          better security, and exclusive features.
+          All plans include access to our MCP marketplace.
         </p>
         <div className="self-stretch mt-11 max-md:max-w-full max-md:mt-10">
           <div className="gap-5 flex max-md:flex-col max-md:items-stretch">

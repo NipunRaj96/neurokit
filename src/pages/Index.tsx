@@ -1,13 +1,15 @@
+
 import React from "react";
 import Navbar from "@/components/landing/Navbar";
 import Hero from "@/components/landing/Hero";
-import LogoSection from "@/components/landing/LogoSection";
+import MCPShowcase from "@/components/landing/MCPShowcase";
 import FeatureSection from "@/components/landing/FeatureSection";
 import ManagementSection from "@/components/landing/ManagementSection";
 import PricingSection from "@/components/landing/PricingSection";
 import TestimonialsSection from "@/components/landing/TestimonialsSection";
 import CTASection from "@/components/landing/CTASection";
 import Footer from "@/components/landing/Footer";
+import MCPRecommendations from "@/components/landing/MCPRecommendations";
 
 const Index: React.FC = () => {
   return (
@@ -15,9 +17,10 @@ const Index: React.FC = () => {
       <div className="bg-white relative w-full max-w-screen-xl max-md:max-w-full">
         <Navbar />
         <Hero />
-        <LogoSection />
+        <MCPShowcase />
         <FeatureSection />
         <ManagementSection />
+        <MCPRecommendations />
         <PricingSection />
         <TestimonialsSection />
         <CTASection />

@@ -1,3 +1,4 @@
+
 import React from "react";
 
 const Footer: React.FC = () => {
@@ -5,15 +6,18 @@ const Footer: React.FC = () => {
     <footer className="bg-black z-0 flex min-h-[403px] w-full overflow-hidden justify-center max-md:max-w-full">
       <div className="flex min-w-60 w-full max-w-[1600px] items-stretch gap-[40px_100px] flex-wrap flex-1 shrink basis-[0%] pr-20 py-[74px] max-md:max-w-full">
         <div className="flex flex-col items-stretch">
-          <img
-            src="https://cdn.builder.io/api/v1/image/assets/TEMP/39380b59e8d3ad40dc4e6f406fa9fbd452b46328?placeholderIfAbsent=true"
-            alt="Logo"
-            className="aspect-[0.97] object-contain w-[78px]"
-          />
-          <p className="text-white text-[13px] font-medium leading-[18px] tracking-[-0.2px] ml-5 max-md:ml-2.5">
-            Celebrate the joy of accomplishment with an <br />
-            app designed to track your progress, motivate <br />
-            your efforts, and celebrate your successes.
+          <div className="flex items-center gap-2">
+            <img
+              src="https://cdn.builder.io/api/v1/image/assets/TEMP/39380b59e8d3ad40dc4e6f406fa9fbd452b46328?placeholderIfAbsent=true"
+              alt="Logo"
+              className="aspect-[0.97] object-contain w-[40px]"
+            />
+            <span className="text-white text-lg font-bold">Amplify Marketplace</span>
+          </div>
+          <p className="text-white text-[13px] font-medium leading-[18px] tracking-[-0.2px] mt-4 ml-5 max-md:ml-2.5">
+            Discover and deploy Model Control Panels (MCPs) <br />
+            that enhance your AI applications with specialized <br />
+            controls, optimized for your specific use cases.
           </p>
           <div className="self-center flex w-[244px] max-w-full items-stretch gap-5 mt-[107px] max-md:mt-10">
             <a href="#" className="min-h-6 flex-1">
@@ -76,21 +80,21 @@ const Footer: React.FC = () => {
           <div className="gap-5 flex max-md:flex-col max-md:items-stretch">
             <div className="w-3/12 max-md:w-full max-md:ml-0">
               <div className="flex flex-col text-[13px] text-white font-medium whitespace-nowrap text-center tracking-[-0.2px] max-md:mt-10">
-                <h4 className="font-bold leading-none">Product</h4>
+                <h4 className="font-bold leading-none">Platform</h4>
                 <a href="#" className="leading-none mt-[27px]">
-                  Features
+                  Marketplace
                 </a>
                 <a href="#" className="leading-none self-stretch mt-7">
-                  Integrations
+                  AI Recommendations
                 </a>
                 <a href="#" className="leading-none mt-[26px]">
-                  Updates
+                  MCP Analytics
                 </a>
                 <a href="#" className="text-sm leading-none mt-[26px]">
-                  FAQ
+                  Integrations
                 </a>
                 <a href="#" className="leading-none mt-[27px]">
-                  Pricing
+                  API
                 </a>
               </div>
             </div>
@@ -107,7 +111,7 @@ const Footer: React.FC = () => {
                   Careers
                 </a>
                 <a href="#" className="leading-none mt-[29px]">
-                  Manifesto
+                  Partners
                 </a>
                 <a href="#" className="leading-none mt-7">
                   Press
@@ -121,16 +125,16 @@ const Footer: React.FC = () => {
               <div className="flex flex-col text-[13px] text-white font-medium whitespace-nowrap text-center tracking-[-0.2px] max-md:mt-10">
                 <h4 className="font-bold leading-none">Resources</h4>
                 <a href="#" className="leading-[1.4] mt-[26px]">
-                  Examples
+                  MCP Documentation
                 </a>
                 <a href="#" className="leading-none self-stretch mt-[25px]">
                   Community
                 </a>
                 <a href="#" className="leading-none mt-[25px]">
-                  Guides
+                  Developer Hub
                 </a>
                 <a href="#" className="leading-none mt-[29px]">
-                  Docs
+                  Support
                 </a>
               </div>
             </div>
