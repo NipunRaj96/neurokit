@@ -1,6 +1,7 @@
 
 import React from "react";
 import { Badge } from "@/components/ui/badge";
+import { Button } from "@/components/ui/button";
 import MCPCard from "./MCPCard";
 
 const MCPShowcase: React.FC = () => {
