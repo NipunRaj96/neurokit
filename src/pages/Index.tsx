@@ -1,5 +1,6 @@
 
 import React from "react";
+import { Separator } from "@/components/ui/separator";
 import Navbar from "@/components/landing/Navbar";
 import Hero from "@/components/landing/Hero";
 import MCPShowcase from "@/components/landing/MCPShowcase";
@@ -17,12 +18,19 @@ const Index: React.FC = () => {
       <div className="relative w-full bg-white">
         <Navbar />
         <Hero />
+        <Separator className="my-0 bg-gray-200" />
         <MCPShowcase />
+        <Separator className="my-0 bg-gray-200" />
         <FeatureSection />
+        <Separator className="my-0 bg-gray-200" />
         <ManagementSection />
+        <Separator className="my-0 bg-gray-200" />
         <MCPRecommendations />
+        <Separator className="my-0 bg-gray-200" />
         <PricingSection />
+        <Separator className="my-0 bg-gray-200" />
         <TestimonialsSection />
+        <Separator className="my-0 bg-gray-200" />
         <CTASection />
         <Footer />
       </div>
