@@ -28,7 +28,10 @@ const FeatureSection: React.FC = () => {
   ];
 
   return (
-    <section id="features" className="z-0 flex w-full flex-col overflow-hidden items-center px-10 py-[102px] max-md:max-w-full max-md:pb-[100px] max-md:px-5">
+    <section 
+      id="features" 
+      className="z-0 flex w-full flex-col overflow-hidden items-center px-10 py-24 max-md:max-w-full max-md:pb-[100px] max-md:px-5 space-y-12"
+    >
       <div className="flex w-[508px] max-w-full flex-col items-center text-black font-semibold text-center tracking-[-1px]">
         <Badge className="w-[168px] text-center">Powerful Features</Badge>
         <h2 className="text-[52px] leading-none self-stretch mt-7 max-md:max-w-full max-md:text-[40px]">
@@ -38,26 +41,23 @@ const FeatureSection: React.FC = () => {
           capabilities instantly
         </h2>
       </div>
-      <p className="text-black text-xl font-normal leading-[31px] text-center mt-7 max-md:max-w-full">
-        Enhance your AI applications with specialized control panels <br />
-        designed to optimize performance for specific use cases
+      
+      <p className="text-black text-xl font-normal leading-[31px] text-center max-w-xl mx-auto">
+        Enhance your AI applications with specialized control panels designed to optimize performance for specific use cases
       </p>
-      <div className="self-stretch relative z-10 flex mt-[-103px] flex-col pt-[164px] max-md:max-w-full max-md:pt-[100px]">
+      
+      <div className="self-stretch relative z-10 mt-12 max-md:max-w-full">
         <img
           src="https://cdn.builder.io/api/v1/image/assets/TEMP/a5fe3c22bcb23541b7f3c3a005f5e664155d6c57?placeholderIfAbsent=true"
           alt="Dashboard screenshot"
-          className="aspect-[1.51] object-contain w-[1085px] shadow-[0px_20px_40px_rgba(10,23,61,0.2)] self-center z-0 max-w-full rounded-[10px]"
-        />
-        <img
-          src="https://cdn.builder.io/api/v1/image/assets/TEMP/8ec7f516bc0959dc67006bc4ed85377fa92837c9?placeholderIfAbsent=true"
-          alt="Decoration"
-          className="aspect-[0.62] object-contain w-[252px] absolute z-0 max-w-full top-[-152px] left-[1083px] -right-10 bottom-[809px]"
+          className="aspect-[1.51] object-contain w-full max-w-[1085px] shadow-[0px_20px_40px_rgba(10,23,61,0.2)] self-center z-0 rounded-[10px]"
         />
       </div>
-      <div className="self-stretch mb-[-25px] mt-[82px] max-md:max-w-full max-md:mt-10 max-md:mb-2.5">
-        <div className="gap-5 flex max-md:flex-col max-md:items-stretch">
+      
+      <div className="self-stretch mt-16 max-md:max-w-full">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
           {features.map((feature, index) => (
-            <div key={index} className="w-3/12 max-md:w-full max-md:ml-0">
+            <div key={index}>
               <FeatureCard
                 icon={feature.icon}
                 title={feature.title}
