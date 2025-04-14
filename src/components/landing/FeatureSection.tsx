@@ -30,8 +30,22 @@ const FeatureSection: React.FC = () => {
   return (
     <section 
       id="features" 
-      className="z-0 flex w-full flex-col overflow-hidden items-center px-10 py-24 max-md:max-w-full max-md:pb-[100px] max-md:px-5 space-y-12"
+      className="z-0 flex w-full flex-col overflow-hidden items-center px-10 py-24 max-md:max-w-full max-md:pb-[100px] max-md:px-5 space-y-12 relative"
     >
+      {/* 3D Element - Top Right */}
+      <img
+        src="https://cdn.builder.io/api/v1/image/assets/TEMP/a0c3130c3b9e0d6d7724b8cd4d8757f30b2bd968?placeholderIfAbsent=true"
+        alt="3D Element"
+        className="absolute top-16 right-16 w-24 h-24 opacity-40 rotate-12 animate-pulse hidden md:block"
+      />
+      
+      {/* 3D Element - Bottom Left */}
+      <img
+        src="https://cdn.builder.io/api/v1/image/assets/TEMP/bcad89d5243b55f92f81f85dba2892147d6b92f6?placeholderIfAbsent=true"
+        alt="3D Element"
+        className="absolute bottom-24 left-16 w-20 h-20 opacity-40 rotate-45 animate-pulse hidden md:block"
+      />
+      
       <div className="flex w-[508px] max-w-full flex-col items-center text-black font-semibold text-center tracking-[-1px]">
         <Badge className="w-[168px] text-center">Powerful Features</Badge>
         <h2 className="text-[52px] leading-none self-stretch mt-7 max-md:max-w-full max-md:text-[40px]">
