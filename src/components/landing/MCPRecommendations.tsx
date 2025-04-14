@@ -8,20 +8,6 @@ import { Sparkles } from "lucide-react";
 const MCPRecommendations: React.FC = () => {
   return (
     <section id="ai-recommendations" className="bg-[#f9fafb] z-0 flex w-full flex-col overflow-hidden items-center text-black font-normal text-center px-10 py-24 max-md:max-w-full max-md:px-5 relative">
-      {/* 3D Element - Top Right */}
-      <img
-        src="https://cdn.builder.io/api/v1/image/assets/TEMP/bcad89d5243b55f92f81f85dba2892147d6b92f6?placeholderIfAbsent=true"
-        alt="3D Element"
-        className="absolute top-16 right-16 w-28 h-28 opacity-30 rotate-45 animate-pulse hidden md:block"
-      />
-      
-      {/* 3D Element - Bottom Left */}
-      <img
-        src="https://cdn.builder.io/api/v1/image/assets/TEMP/a0c3130c3b9e0d6d7724b8cd4d8757f30b2bd968?placeholderIfAbsent=true"
-        alt="3D Element"
-        className="absolute bottom-16 left-20 w-24 h-24 opacity-30 -rotate-12 animate-pulse hidden md:block"
-      />
-      
       <Badge className="w-[200px] text-center">AI-Powered Discovery</Badge>
       <h2 className="text-[53px] font-semibold leading-none tracking-[-1px] mt-7 max-md:text-[40px]">
         Smart MCP

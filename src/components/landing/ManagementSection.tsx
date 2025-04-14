@@ -5,20 +5,6 @@ import { Badge } from "@/components/ui/badge";
 const ManagementSection: React.FC = () => {
   return (
     <section className="bg-white z-0 flex w-full flex-col overflow-hidden items-center text-black font-normal text-center px-10 py-24 max-md:max-w-full max-md:px-5 space-y-8 relative">
-      {/* 3D Element - Top Left */}
-      <img
-        src="https://cdn.builder.io/api/v1/image/assets/TEMP/a0c3130c3b9e0d6d7724b8cd4d8757f30b2bd968?placeholderIfAbsent=true"
-        alt="3D Element"
-        className="absolute top-12 left-12 w-24 h-24 opacity-50 rotate-45 animate-pulse hidden md:block"
-      />
-      
-      {/* 3D Element - Bottom Right */}
-      <img
-        src="https://cdn.builder.io/api/v1/image/assets/TEMP/bcad89d5243b55f92f81f85dba2892147d6b92f6?placeholderIfAbsent=true"
-        alt="3D Element"
-        className="absolute bottom-12 right-12 w-20 h-20 opacity-50 -rotate-12 animate-pulse hidden md:block"
-      />
-      
       <Badge className="w-[151px] text-center">Streamlined Workflow</Badge>
       
       <div className="text-center">
