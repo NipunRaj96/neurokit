@@ -17,22 +17,24 @@ const Index: React.FC = () => {
     <div className="flex flex-col w-full">
       <div className="relative w-full bg-white">
         <Navbar />
-        <Hero />
-        <Separator className="my-0 bg-gray-200" />
-        <MCPShowcase />
-        <Separator className="my-0 bg-gray-200" />
-        <FeatureSection />
-        <Separator className="my-0 bg-gray-200" />
-        <ManagementSection />
-        <Separator className="my-0 bg-gray-200" />
-        <MCPRecommendations />
-        <Separator className="my-0 bg-gray-200" />
-        <PricingSection />
-        <Separator className="my-0 bg-gray-200" />
-        <TestimonialsSection />
-        <Separator className="my-0 bg-gray-200" />
-        <CTASection />
-        <Footer />
+        <div className="pt-16"> {/* Add padding top to account for fixed navbar */}
+          <Hero />
+          <Separator className="my-0 bg-gray-200" />
+          <MCPShowcase />
+          <Separator className="my-0 bg-gray-200" />
+          <FeatureSection />
+          <Separator className="my-0 bg-gray-200" />
+          <ManagementSection />
+          <Separator className="my-0 bg-gray-200" />
+          <MCPRecommendations />
+          <Separator className="my-0 bg-gray-200" />
+          <PricingSection />
+          <Separator className="my-0 bg-gray-200" />
+          <TestimonialsSection />
+          <Separator className="my-0 bg-gray-200" />
+          <CTASection />
+          <Footer />
+        </div>
       </div>
     </div>
   );

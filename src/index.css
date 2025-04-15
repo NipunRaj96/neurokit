@@ -1,3 +1,4 @@
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -95,7 +96,18 @@
     @apply border-border;
   }
 
+  html {
+    scroll-behavior: smooth;
+  }
+
   body {
     @apply bg-background text-foreground;
+    padding-top: 4rem; /* Add padding to account for fixed navbar */
+  }
+}
+
+@layer components {
+  .glass-navbar {
+    @apply backdrop-blur-lg bg-white/70 border-b border-gray-200/50 shadow-sm;
   }
 }
