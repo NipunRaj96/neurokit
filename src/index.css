@@ -108,6 +108,6 @@
 
 @layer components {
   .glass-navbar {
-    @apply backdrop-blur-lg bg-white/70 border-b border-gray-200/50 shadow-sm;
+    @apply backdrop-blur-sm bg-white/80 border-b border-gray-200/50 shadow-sm;
   }
 }
