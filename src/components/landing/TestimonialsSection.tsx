@@ -45,8 +45,8 @@ const TestimonialsSection: React.FC = () => {
   ];
 
   return (
-    <section className="w-full py-24 bg-gray-50">
-      <div className="max-w-[1200px] mx-auto px-8">
+    <section className="w-full py-24 bg-gray-50 px-10 md:px-8">
+      <div className="max-w-7xl mx-auto">
         <div className="flex flex-col items-center mb-16">
           <Badge className="mb-4">Testimonials</Badge>
           <h2 className="text-4xl md:text-5xl font-semibold text-center mb-6">

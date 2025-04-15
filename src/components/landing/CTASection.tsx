@@ -4,8 +4,8 @@ import { Button } from "@/components/ui/button";
 
 const CTASection: React.FC = () => {
   return (
-    <section className="relative z-0 w-full py-24 bg-white overflow-hidden px-4 md:px-10">
-      <div className="max-w-7xl mx-auto flex flex-col items-center text-center">
+    <section className="relative z-0 w-full py-24 bg-white overflow-hidden">
+      <div className="max-w-7xl mx-auto flex flex-col items-center text-center px-10 md:px-8">
         <h2 className="text-4xl md:text-5xl font-semibold text-black mb-6 max-w-3xl">
           Transform your LLMs today
         </h2>
@@ -18,10 +18,10 @@ const CTASection: React.FC = () => {
         </div>
         
         <div className="flex flex-col md:flex-row justify-center items-center gap-4">
-          <Button size="lg" className="px-8">
+          <Button size="lg" className="px-8 w-full md:w-auto">
             Explore the Marketplace
           </Button>
-          <Button variant="outline" size="lg" className="px-8">
+          <Button variant="outline" size="lg" className="px-8 w-full md:w-auto">
             Request Demo
           </Button>
         </div>

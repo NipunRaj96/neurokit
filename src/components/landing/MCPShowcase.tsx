@@ -1,3 +1,4 @@
+
 import React from "react";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
@@ -62,36 +63,38 @@ const MCPShowcase: React.FC = () => {
   ];
 
   return (
-    <section id="marketplace" className="z-0 flex w-full flex-col overflow-hidden items-center px-10 py-32 max-md:max-w-full max-md:px-5">
-      <div className="flex w-[508px] max-w-full flex-col items-center text-black font-semibold text-center tracking-[-1px]">
-        <Badge className="w-56 text-center mb-6">Top Model Control Panels</Badge>
-        <h2 className="text-[52px] leading-tight self-stretch max-md:max-w-full max-md:text-[40px]">
-          Discover powerful MCPs for your LLMs
-        </h2>
+    <section id="marketplace" className="z-0 w-full bg-white py-24 px-10 md:px-8">
+      <div className="max-w-7xl mx-auto flex flex-col items-center">
+        <div className="text-center mb-10">
+          <Badge className="w-56 text-center mb-6">Top Model Control Panels</Badge>
+          <h2 className="text-4xl md:text-5xl font-semibold leading-tight">
+            Discover powerful MCPs for your LLMs
+          </h2>
+          
+          <p className="text-black text-xl font-normal leading-[31px] mt-6 max-w-2xl mx-auto">
+            Browse our curated collection of Model Control Panels that enhance your LLM capabilities across diverse use cases.
+          </p>
+        </div>
+        
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-12 w-full">
+          {popularMCPs.map((mcp, index) => (
+            <MCPCard 
+              key={index}
+              title={mcp.title}
+              description={mcp.description}
+              author={mcp.author}
+              rating={mcp.rating}
+              downloads={mcp.downloads}
+              image={mcp.image}
+              tags={mcp.tags}
+            />
+          ))}
+        </div>
+        
+        <Button variant="outline" size="lg" className="mt-16 px-8">
+          View All MCPs
+        </Button>
       </div>
-      <p className="text-black text-xl font-normal leading-[31px] text-center mt-8 max-md:max-w-full">
-        Browse our curated collection of Model Control Panels that <br />
-        enhance your LLM capabilities across diverse use cases.
-      </p>
-      
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-16 w-full max-w-[1200px]">
-        {popularMCPs.map((mcp, index) => (
-          <MCPCard 
-            key={index}
-            title={mcp.title}
-            description={mcp.description}
-            author={mcp.author}
-            rating={mcp.rating}
-            downloads={mcp.downloads}
-            image={mcp.image}
-            tags={mcp.tags}
-          />
-        ))}
-      </div>
-      
-      <Button variant="outline" size="lg" className="mt-16">
-        View All MCPs
-      </Button>
     </section>
   );
 };
