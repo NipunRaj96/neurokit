@@ -59,21 +59,22 @@ const PricingSection: React.FC = () => {
   ];
 
   return (
-    <section id="pricing" className="bg-white z-0 flex w-full flex-col overflow-hidden items-center justify-center px-20 py-[85px] max-md:max-w-full max-md:px-5">
-      <div className="flex w-full max-w-[1000px] flex-col items-center max-md:max-w-full">
-        <h2 className="text-black text-[51px] font-semibold leading-none tracking-[-1px] text-center max-md:text-[40px]">
+    <section id="pricing" className="bg-white z-0 w-full overflow-hidden py-24 px-10 md:px-8">
+      <div className="max-w-7xl mx-auto flex flex-col items-center">
+        <h2 className="text-4xl md:text-5xl font-semibold leading-tight text-center">
           Pricing Plans
         </h2>
-        <p className="text-black text-xl font-normal leading-loose text-center mt-[27px]">
+        <p className="text-black text-xl font-normal leading-loose text-center mt-6">
           Choose the plan that fits your needs.
         </p>
-        <p className="text-black text-xl font-normal leading-loose text-center mt-[11px]">
+        <p className="text-black text-xl font-normal leading-loose text-center mt-2">
           All plans include access to our MCP marketplace.
         </p>
-        <div className="self-stretch mt-11 max-md:max-w-full max-md:mt-10">
-          <div className="gap-5 flex max-md:flex-col max-md:items-stretch">
+        
+        <div className="w-full mt-16">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
             {pricingPlans.map((plan, index) => (
-              <div key={index} className="w-[33%] max-md:w-full max-md:ml-0">
+              <div key={index} className="w-full">
                 <PricingCard
                   name={plan.name}
                   price={plan.price}
@@ -82,9 +83,6 @@ const PricingSection: React.FC = () => {
                   buttonVariant={plan.buttonVariant}
                   features={plan.features}
                   dark={plan.dark}
-                  className={
-                    index === 1 ? "mt-[104px]" : index === 0 ? "mt-[191px]" : ""
-                  }
                 />
               </div>
             ))}

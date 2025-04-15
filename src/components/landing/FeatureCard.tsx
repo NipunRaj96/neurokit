@@ -1,4 +1,6 @@
+
 import React from "react";
+import { ArrowRight } from "lucide-react";
 
 interface FeatureCardProps {
   icon: string;
@@ -12,9 +14,9 @@ const FeatureCard: React.FC<FeatureCardProps> = ({
   description,
 }) => {
   return (
-    <div className="flex w-full flex-col text-black max-md:mt-10">
+    <div className="flex w-full flex-col text-black max-md:mt-10 h-full">
       <img src={icon} alt={title} className="aspect-[1] object-contain w-8" />
-      <div className="self-stretch flex flex-col overflow-hidden items-stretch justify-center mt-5">
+      <div className="flex flex-col overflow-hidden mt-5 flex-grow">
         <h3 className="text-[17px] font-semibold leading-none tracking-[-0.1px]">
           {title}
         </h3>
@@ -31,14 +33,10 @@ const FeatureCard: React.FC<FeatureCardProps> = ({
       </div>
       <a
         href="#learn-more"
-        className="flex items-stretch gap-[5px] text-[15px] font-medium text-center leading-loose mt-6"
+        className="flex items-center gap-[5px] text-[15px] font-medium mt-6"
       >
-        <span className="grow my-auto">Learn more</span>
-        <img
-          src="https://cdn.builder.io/api/v1/image/assets/TEMP/f2256ee45bc548ced9489d6b6cb3568bd9b482ea?placeholderIfAbsent=true"
-          alt="Arrow right"
-          className="aspect-[1] object-contain w-4 shrink-0"
-        />
+        <span>Learn more</span>
+        <ArrowRight className="h-4 w-4" />
       </a>
     </div>
   );
