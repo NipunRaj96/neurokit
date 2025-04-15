@@ -50,6 +50,9 @@
     --sidebar-border: 220 13% 91%;
 
     --sidebar-ring: 217.2 91.2% 59.8%;
+    
+    --amplify-blue: 214 100% 20%;
+    --amplify-blue-dark: 214 100% 15%;
   }
 
   .dark {
@@ -88,6 +91,9 @@
     --sidebar-accent-foreground: 240 4.8% 95.9%;
     --sidebar-border: 240 3.7% 15.9%;
     --sidebar-ring: 217.2 91.2% 59.8%;
+    
+    --amplify-blue: 214 100% 40%;
+    --amplify-blue-dark: 214 100% 30%;
   }
 }
 
@@ -109,5 +115,9 @@
 @layer components {
   .glass-navbar {
     @apply backdrop-blur-sm bg-white/80 border-b border-gray-200/50 shadow-sm;
+  }
+  
+  .nav-link {
+    @apply text-gray-700 hover:text-[#003366] transition-colors text-base font-medium;
   }
 }
