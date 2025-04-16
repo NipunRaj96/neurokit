@@ -6,13 +6,13 @@ import { ArrowRight } from "lucide-react";
 
 const Hero: React.FC = () => {
   return (
-    <section className="z-0 w-full py-24 px-10 md:px-8 relative">
+    <section className="z-0 w-full py-16 px-10 md:px-8 relative">
       <div className="flex max-w-7xl mx-auto">
         <div className="flex flex-col max-w-3xl">
           <Badge className="w-44 text-center mb-6 transition-all duration-300 hover:bg-blue-100">Now with AI recommendations</Badge>
           <h1 className="text-5xl md:text-[85px] font-semibold tracking-[-2.5px] leading-[1.05] max-md:text-[40px] max-md:leading-[47px]">
-            NeuroKit your <br />
-            LLM capabilities
+            Amplify your <br />
+            LLM capabilities with NeuroKit
           </h1>
           <p className="text-black text-xl font-normal leading-[31px] mt-8 mb-10">
             Discover and deploy Model Control Panels (MCPs) <br className="hidden md:block" />
@@ -42,3 +42,4 @@ const Hero: React.FC = () => {
 };
 
 export default Hero;
+
