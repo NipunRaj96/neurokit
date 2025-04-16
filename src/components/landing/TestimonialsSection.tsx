@@ -16,7 +16,7 @@ const TestimonialsSection: React.FC = () => {
       avatar: "https://cdn.builder.io/api/v1/image/assets/TEMP/fb9cd76b9fb0f6b8e529832fe5798500cea806fa?placeholderIfAbsent=true",
       name: "Alex Rivera",
       username: "@alexinnovates",
-      content: "Our team's productivity has skyrocketed since we started using Amplify's MCPs.",
+      content: "Our team's productivity has skyrocketed since we started using NeuroKit's MCPs.",
     },
     {
       avatar: "https://cdn.builder.io/api/v1/image/assets/TEMP/c10d92a1ba81182b1d6bc7115a8923290a331982?placeholderIfAbsent=true",
@@ -28,13 +28,13 @@ const TestimonialsSection: React.FC = () => {
       avatar: "https://cdn.builder.io/api/v1/image/assets/TEMP/39611fde8ce3d4abd421e3e8f49dafc84f9ef4cf?placeholderIfAbsent=true",
       name: "Taylor Kim",
       username: "@taykimm",
-      content: "Planning and executing AI events has never been easier. Amplify helps me keep track of all the moving parts.",
+      content: "Planning and executing AI events has never been easier. NeuroKit helps me keep track of all the moving parts.",
     },
     {
       avatar: "https://cdn.builder.io/api/v1/image/assets/TEMP/5020f5963f7397e25e594449e55ee97084669343?placeholderIfAbsent=true",
       name: "Riley Smith",
       username: "@rileysmith1",
-      content: "The customizability and integration capabilities of Amplify's MCPs are top-notch.",
+      content: "The customizability and integration capabilities of NeuroKit's MCPs are top-notch.",
     },
     {
       avatar: "https://cdn.builder.io/api/v1/image/assets/TEMP/c697961ea04bb7d323770a2a8caf40ae97acb4c6?placeholderIfAbsent=true",

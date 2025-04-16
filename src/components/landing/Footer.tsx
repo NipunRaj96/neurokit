@@ -11,11 +11,11 @@ const Footer: React.FC = () => {
           <div className="col-span-1 md:col-span-2">
             <div className="flex items-center gap-2 mb-4">
               <img
-                src="https://cdn.builder.io/api/v1/image/assets/TEMP/39380b59e8d3ad40dc4e6f406fa9fbd452b46328?placeholderIfAbsent=true"
-                alt="Logo"
+                src="/lovable-uploads/9980195e-2669-4dc1-acc8-735e614e6e20.png"
+                alt="NeuroKit Logo"
                 className="aspect-[0.97] object-contain w-[40px]"
               />
-              <span className="text-white text-lg font-bold">Amplify</span>
+              <span className="text-white text-lg font-bold">NeuroKit</span>
             </div>
             <p className="text-white/80 text-sm leading-relaxed mb-8">
               Discover and deploy Model Control Panels (MCPs) <br />
@@ -82,7 +82,7 @@ const Footer: React.FC = () => {
         </div>
         
         <div className="border-t border-white/10 mt-16 pt-8 text-center text-white/60 text-sm">
-          © {new Date().getFullYear()} Amplify. All rights reserved.
+          © {new Date().getFullYear()} NeuroKit. All rights reserved.
         </div>
       </div>
     </footer>

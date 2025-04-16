@@ -23,7 +23,7 @@ const Navbar: React.FC = () => {
               alt="NeuroKit Logo"
               className="h-12 w-auto object-contain"
             />
-            <span className="text-xl font-bold text-[#003366]">NeuroKit</span>
+            <span className="text-xl font-bold text-black">NeuroKit</span>
           </div>
           
           {/* Navigation Links - Desktop */}
@@ -45,7 +45,7 @@ const Navbar: React.FC = () => {
                 Help
               </a>
             </div>
-            <Button size="sm" className="ml-8 bg-[#003366] hover:bg-[#002244]">Get Started</Button>
+            <Button size="sm" className="ml-8 bg-black hover:bg-gray-800 text-white">Get Started</Button>
           </div>
           
           {/* Mobile menu button */}
@@ -86,7 +86,7 @@ const Navbar: React.FC = () => {
               Help
             </a>
             <div className="pt-2">
-              <Button size="sm" className="w-full bg-[#003366] hover:bg-[#002244]">Get Started</Button>
+              <Button size="sm" className="w-full bg-black hover:bg-gray-800 text-white">Get Started</Button>
             </div>
           </div>
         </div>
