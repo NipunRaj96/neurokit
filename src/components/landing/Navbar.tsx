@@ -17,13 +17,13 @@ const Navbar: React.FC = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex h-16 items-center justify-between">
           {/* Logo and Brand */}
-          <div className="flex items-center space-x-2">
+          <div className="flex items-center space-x-4">
             <img
-              src="/lovable-uploads/7a184d09-d746-424c-9516-bf30f135ac0f.png"
-              alt="Amplify Logo"
-              className="h-8 w-auto object-contain"
+              src="/lovable-uploads/9980195e-2669-4dc1-acc8-735e614e6e20.png"
+              alt="NeuroKit Logo"
+              className="h-12 w-auto object-contain"
             />
-            <span className="text-lg font-bold text-[#003366]">Amplify</span>
+            <span className="text-xl font-bold text-[#003366]">NeuroKit</span>
           </div>
           
           {/* Navigation Links - Desktop */}
