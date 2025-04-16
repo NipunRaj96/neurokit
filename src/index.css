@@ -120,4 +120,16 @@
   .nav-link {
     @apply text-gray-700 hover:text-[#003366] transition-colors text-base font-medium;
   }
+
+  .btn-hover-effect {
+    @apply transition-all duration-300 hover:shadow-md hover:translate-y-[-2px];
+  }
+  
+  .scale-on-hover {
+    @apply transition-transform duration-300 hover:scale-105;
+  }
+  
+  .slide-on-hover {
+    @apply transition-transform duration-300 hover:translate-x-1;
+  }
 }
