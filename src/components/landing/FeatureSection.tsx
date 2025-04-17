@@ -46,8 +46,8 @@ const FeatureSection: React.FC = () => {
         
         <div className="relative z-10 w-full mt-12">
           <img
-            src="https://cdn.builder.io/api/v1/image/assets/TEMP/a5fe3c22bcb23541b7f3c3a005f5e664155d6c57?placeholderIfAbsent=true"
-            alt="Dashboard screenshot"
+            src="/lovable-uploads/581a88e1-3cac-4e6f-ba15-0aef81c9f0db.png" 
+            alt="NeuroKit Dashboard"
             className="aspect-[1.51] object-contain w-full max-w-[1085px] mx-auto shadow-[0px_20px_40px_rgba(10,23,61,0.2)] rounded-[10px]"
           />
         </div>
@@ -71,3 +71,4 @@ const FeatureSection: React.FC = () => {
 };
 
 export default FeatureSection;
+
