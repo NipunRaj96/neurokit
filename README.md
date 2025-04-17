@@ -43,6 +43,16 @@ These instructions shape how the LLM responds. An MCP controls tone, style, scop
 
 ---
 
+## What technologies are used for this project?
+
+This project is built with .
+
+- Vite
+- TypeScript
+- React
+- shadcn-ui
+- Tailwind CSS
+
 ## 🧪 Future Considerations
 
 - **In-Browser Fine-Tuning (External Support)** – Trigger and preview tuning results using third-party endpoints.
