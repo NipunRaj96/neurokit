@@ -1,6 +1,6 @@
 
 import React from "react";
-import { Instagram, Linkedin, Twitter, Facebook, Youtube, Mail, Github } from "lucide-react";
+import { Linkedin, Github, Mail } from "lucide-react";
 
 const Footer: React.FC = () => {
   return (
@@ -10,7 +10,7 @@ const Footer: React.FC = () => {
         <img 
           src="/lovable-uploads/20cc4774-1cd0-45f3-b8c3-7515b50371e4.png"
           alt="3D Cylinder Element"
-          className="w-[70px] h-auto transform rotate-[30deg]"
+          className="w-[140px] h-auto transform rotate-[30deg]"
         />
       </div>
       
@@ -38,16 +38,7 @@ const Footer: React.FC = () => {
               <a href="https://github.com/NipunRaj96/" target="_blank" rel="noopener noreferrer" className="text-white/80 hover:text-white transition-colors">
                 <Github size={20} />
               </a>
-              <a href="#" className="text-white/80 hover:text-white transition-colors">
-                <Twitter size={20} />
-              </a>
-              <a href="#" className="text-white/80 hover:text-white transition-colors">
-                <Facebook size={20} />
-              </a>
-              <a href="#" className="text-white/80 hover:text-white transition-colors">
-                <Youtube size={20} />
-              </a>
-              <a href="#" className="text-white/80 hover:text-white transition-colors">
+              <a href="mailto:info@neurokit.ai" className="text-white/80 hover:text-white transition-colors">
                 <Mail size={20} />
               </a>
               <a href="https://nipun.framer.website/" target="_blank" rel="noopener noreferrer" className="text-white/80 hover:text-white transition-colors">
