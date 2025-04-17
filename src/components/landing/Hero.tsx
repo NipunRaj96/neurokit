@@ -36,8 +36,17 @@ const Hero: React.FC = () => {
               <ArrowRight className="h-4 w-4 transition-transform duration-300 group-hover:translate-x-1" />
             </Button>
           </div>
+          
+          {/* Small 3D Element - Cylinder */}
+          <div className="hidden md:block absolute -left-4 bottom-20">
+            <img 
+              src="/lovable-uploads/20cc4774-1cd0-45f3-b8c3-7515b50371e4.png"
+              alt="3D Cylinder Element"
+              className="w-[60px] h-auto rotate-[-20deg] transform hover:rotate-0 transition-all duration-700"
+            />
+          </div>
         </div>
-        <div className="hidden md:block">
+        <div className="hidden md:block relative">
           <img 
             src="/lovable-uploads/a25dc278-2692-4177-9cbd-77d1c54019dc.png" 
             alt="NeuroKit Illustration" 

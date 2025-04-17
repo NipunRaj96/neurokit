@@ -25,6 +25,15 @@ const CTASection: React.FC = () => {
             Request Demo
           </Button>
         </div>
+        
+        {/* 3D Star Element */}
+        <div className="absolute right-[10%] top-1/4 hidden md:block">
+          <img 
+            src="/lovable-uploads/5e23b0fd-e51c-479d-acbd-9838f7fbfb06.png"
+            alt="3D Star Element"
+            className="w-[80px] h-auto animate-pulse-slow transform hover:rotate-45 transition-transform duration-700"
+          />
+        </div>
       </div>
     </section>
   );

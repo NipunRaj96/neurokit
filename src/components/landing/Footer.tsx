@@ -1,10 +1,19 @@
 
 import React from "react";
-import { Instagram, Linkedin, Twitter, Facebook, Youtube, Mail } from "lucide-react";
+import { Instagram, Linkedin, Twitter, Facebook, Youtube, Mail, Github } from "lucide-react";
 
 const Footer: React.FC = () => {
   return (
-    <footer className="bg-black z-0 w-full overflow-hidden py-16">
+    <footer className="bg-black z-0 w-full overflow-hidden py-16 relative">
+      {/* 3D Element - Cylinder */}
+      <div className="absolute left-[5%] top-10 opacity-20">
+        <img 
+          src="/lovable-uploads/20cc4774-1cd0-45f3-b8c3-7515b50371e4.png"
+          alt="3D Cylinder Element"
+          className="w-[70px] h-auto transform rotate-[30deg]"
+        />
+      </div>
+      
       <div className="max-w-[1200px] mx-auto px-8">
         <div className="grid grid-cols-1 md:grid-cols-5 gap-12">
           {/* Company Info Column */}
@@ -23,11 +32,11 @@ const Footer: React.FC = () => {
               controls, optimized for your specific use cases.
             </p>
             <div className="flex space-x-4 mt-8">
-              <a href="#" className="text-white/80 hover:text-white transition-colors">
-                <Instagram size={20} />
-              </a>
-              <a href="#" className="text-white/80 hover:text-white transition-colors">
+              <a href="https://www.linkedin.com/in/nipunkumar01/" target="_blank" rel="noopener noreferrer" className="text-white/80 hover:text-white transition-colors">
                 <Linkedin size={20} />
+              </a>
+              <a href="https://github.com/NipunRaj96/" target="_blank" rel="noopener noreferrer" className="text-white/80 hover:text-white transition-colors">
+                <Github size={20} />
               </a>
               <a href="#" className="text-white/80 hover:text-white transition-colors">
                 <Twitter size={20} />
@@ -40,6 +49,12 @@ const Footer: React.FC = () => {
               </a>
               <a href="#" className="text-white/80 hover:text-white transition-colors">
                 <Mail size={20} />
+              </a>
+              <a href="https://nipun.framer.website/" target="_blank" rel="noopener noreferrer" className="text-white/80 hover:text-white transition-colors">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                  <path d="M20 4H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2z" />
+                  <circle cx="12" cy="12" r="3" />
+                </svg>
               </a>
             </div>
           </div>
