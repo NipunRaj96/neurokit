@@ -29,7 +29,7 @@ const Footer: React.FC = () => {
               <a href="https://github.com/NipunRaj96/" target="_blank" rel="noopener noreferrer" className="text-white/80 hover:text-white transition-colors">
                 <Github size={20} />
               </a>
-              <a href="mailto:info@neurokit.ai" className="text-white/80 hover:text-white transition-colors">
+              <a href="mailto:nipunraj2004@gmail.com" className="text-white/80 hover:text-white transition-colors">
                 <Mail size={20} />
               </a>
               <a href="https://nipun.framer.website/" target="_blank" rel="noopener noreferrer" className="text-white/80 hover:text-white transition-colors">
