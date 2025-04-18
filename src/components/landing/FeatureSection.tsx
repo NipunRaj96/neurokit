@@ -50,20 +50,6 @@ const FeatureSection: React.FC = () => {
             alt="NeuroKit Dashboard"
             className="aspect-[1.51] object-contain w-full max-w-[1085px] mx-auto shadow-[0px_20px_40px_rgba(10,23,61,0.2)] rounded-[10px]"
           />
-          
-          {/* 3D Element - Triangle - Enlarged */}
-          <img 
-            src="/lovable-uploads/57a3708d-a1f4-4ffd-b152-68df5a0b385e.png"
-            alt="3D Triangle Element"
-            className="absolute -bottom-16 -right-10 w-[180px] h-auto transform rotate-12 animate-pulse-slow hidden md:block"
-          />
-
-          {/* Adding a new 3D element on the left side for balance */}
-          <img 
-            src="/lovable-uploads/7a184d09-d746-424c-9516-bf30f135ac0f.png"
-            alt="3D Element"
-            className="absolute -left-10 top-1/4 w-[150px] h-auto transform -rotate-12 animate-pulse-slow hidden md:block"
-          />
         </div>
         
         <div className="w-full mt-16">

@@ -5,15 +5,6 @@ import { Badge } from "@/components/ui/badge";
 const ManagementSection: React.FC = () => {
   return (
     <section className="bg-white z-0 w-full py-24 px-10 md:px-8 relative">
-      {/* Adding a new 3D element to the top right of this section */}
-      <div className="absolute top-10 right-[8%] hidden md:block">
-        <img 
-          src="/lovable-uploads/5a89d66e-deb2-43b9-a81e-3e06ea5345c3.png"
-          alt="3D Element"
-          className="w-[130px] h-auto transform rotate-[15deg] animate-pulse-slow"
-        />
-      </div>
-      
       <div className="max-w-7xl mx-auto flex flex-col items-center">
         <div className="text-center mb-12">
           <Badge className="w-[151px] text-center mb-6">Streamlined Workflow</Badge>
@@ -59,15 +50,6 @@ const ManagementSection: React.FC = () => {
             </div>
           </div>
         </div>
-      </div>
-      
-      {/* Adding another 3D element to the bottom left of this section */}
-      <div className="absolute bottom-10 left-[5%] hidden md:block">
-        <img 
-          src="/lovable-uploads/57a3708d-a1f4-4ffd-b152-68df5a0b385e.png"
-          alt="3D Triangle Element"
-          className="w-[120px] h-auto transform -rotate-[20deg] animate-pulse-slow"
-        />
       </div>
     </section>
   );

@@ -34,15 +34,6 @@ const CTASection: React.FC = () => {
             className="w-[150px] h-auto animate-pulse-slow transform hover:rotate-45 transition-transform duration-700"
           />
         </div>
-
-        {/* Adding a new 3D element on the left side */}
-        <div className="absolute left-[10%] bottom-1/4 hidden md:block">
-          <img 
-            src="/lovable-uploads/5a89d66e-deb2-43b9-a81e-3e06ea5345c3.png"
-            alt="3D Sphere Element"
-            className="w-[120px] h-auto animate-pulse-slow transform hover:scale-110 transition-transform duration-700"
-          />
-        </div>
       </div>
     </section>
   );

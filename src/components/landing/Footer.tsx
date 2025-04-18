@@ -5,15 +5,6 @@ import { Linkedin, Github, Mail } from "lucide-react";
 const Footer: React.FC = () => {
   return (
     <footer className="bg-black z-0 w-full overflow-hidden py-16 relative">
-      {/* 3D Element - Cylinder */}
-      <div className="absolute left-[5%] top-10 opacity-20">
-        <img 
-          src="/lovable-uploads/20cc4774-1cd0-45f3-b8c3-7515b50371e4.png"
-          alt="3D Cylinder Element"
-          className="w-[140px] h-auto transform rotate-[30deg]"
-        />
-      </div>
-      
       <div className="max-w-[1200px] mx-auto px-8">
         <div className="grid grid-cols-1 md:grid-cols-5 gap-12">
           {/* Company Info Column */}
