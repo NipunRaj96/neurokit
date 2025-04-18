@@ -38,7 +38,7 @@ const PricingSection: React.FC = () => {
     },
     {
       name: "Enterprise",
-      price: "$199",
+      price: "$99",
       popular: false,
       buttonText: "Contact sales",
       buttonVariant: "default" as const,
