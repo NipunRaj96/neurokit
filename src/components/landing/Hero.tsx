@@ -6,9 +6,9 @@ import { ArrowRight } from "lucide-react";
 
 const Hero: React.FC = () => {
   return (
-    <section className="z-0 w-full py-0 px-10 md:px-8 relative">
-      <div className="flex max-w-7xl mx-auto items-center space-x-14">
-         <div className="flex flex-col max-w-3xl">
+    <section className="z-0 w-full px-10 md:px-8 relative">
+      <div className="flex max-w-7xl mx-auto items-center space-x-14 mt-[-20]">
+        <div className="flex flex-col max-w-3xl">
           <Badge className="w-44 text-center mb-4 transition-all duration-300 hover:bg-blue-100">Now with AI recommendations</Badge>
           <h1 className="text-5xl md:text-[85px] font-semibold tracking-[-2.5px] leading-[1.05] max-md:text-[40px] max-md:leading-[47px] mt-[-4]">
             Amplify your <br />

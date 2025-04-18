@@ -22,7 +22,7 @@ const TestimonialsSection: React.FC = () => {
       avatar: "https://cdn.builder.io/api/v1/image/assets/TEMP/c10d92a1ba81182b1d6bc7115a8923290a331982?placeholderIfAbsent=true",
       name: "Morgan Lee",
       username: "@morganleewhiz",
-      content: "The ability to collaborate in real-time with the model control panels has made it indispensable for our AI operations.",
+      content: "The ability to collaborate in real-time with the Model Context Protocols has made it indispensable for our AI operations.",
     },
     {
       avatar: "https://cdn.builder.io/api/v1/image/assets/TEMP/39611fde8ce3d4abd421e3e8f49dafc84f9ef4cf?placeholderIfAbsent=true",
@@ -40,7 +40,7 @@ const TestimonialsSection: React.FC = () => {
       avatar: "https://cdn.builder.io/api/v1/image/assets/TEMP/c697961ea04bb7d323770a2a8caf40ae97acb4c6?placeholderIfAbsent=true",
       name: "Jordan Patels",
       username: "@jpatelsdesign",
-      content: "Adopting these MCPs for our team has streamlined our AI management and improved communication across the board.",
+      content: "Adopting these Model Context Protocols for our team has streamlined our AI management and improved communication across the board.",
     },
   ];
 
