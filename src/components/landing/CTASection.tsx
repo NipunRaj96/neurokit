@@ -13,7 +13,7 @@ const CTASection: React.FC = () => {
         <div className="max-w-2xl mx-auto mb-8">
           <p className="text-lg text-gray-700 mb-4">
             Join thousands of developers who are enhancing their AI applications 
-            with our specialized Model Control Panels.
+            with our specialized Model Context Protocols.
           </p>
         </div>
         

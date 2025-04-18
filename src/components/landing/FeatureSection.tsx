@@ -40,7 +40,7 @@ const FeatureSection: React.FC = () => {
           </h2>
           
           <p className="text-black text-xl font-normal leading-[31px] mt-6 max-w-xl mx-auto">
-            Enhance your AI applications with specialized control panels designed to optimize performance for specific use cases
+            Enhance your AI applications with specialized context protocols designed to optimize performance for specific use cases
           </p>
         </div>
         

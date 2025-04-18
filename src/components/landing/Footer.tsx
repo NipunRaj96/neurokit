@@ -18,9 +18,8 @@ const Footer: React.FC = () => {
               <span className="text-white text-lg font-bold">NeuroKit</span>
             </div>
             <p className="text-white/80 text-sm leading-relaxed mb-8">
-              Discover and deploy Model Control Panels (MCPs) <br />
-              that enhance your AI applications with specialized <br />
-              controls, optimized for your specific use cases.
+              Discover and deploy Model Context Protocols (MCPs) <br />
+              that enhance your AI applications with specialized controls.
             </p>
             <div className="flex space-x-4 mt-8">
               <a href="https://www.linkedin.com/in/nipunkumar01/" target="_blank" rel="noopener noreferrer" className="text-white/80 hover:text-white transition-colors">

@@ -56,7 +56,7 @@ const MCPCard: React.FC<MCPCardProps> = ({
       </CardContent>
       
       <CardFooter className="p-6 pt-2 flex justify-between items-center">
-        <Button variant="default" size="sm" className="w-full">Try This MCP</Button>
+        <Button variant="default" size="sm" className="w-full">Try this MCP</Button>
       </CardFooter>
     </Card>
   );

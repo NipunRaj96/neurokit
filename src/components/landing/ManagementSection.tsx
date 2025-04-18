@@ -12,9 +12,7 @@ const ManagementSection: React.FC = () => {
             Simplified MCP Management
           </h2>
           
-          <p className="text-xl leading-[31px] mt-6 max-w-2xl mx-auto">
-            Browse, deploy, and manage your Model Control Panels with intuitive tools designed for both beginners and experts. Monitor performance and iterate with confidence.
-          </p>
+          <p className="text-xl leading-[31px] mt-6 max-w-2xl mx-auto">Browse, deploy, and manage your Model Context Protocols with intuitive tools designed for both beginners and experts. Monitor performance and iterate with confidence.</p>
         </div>
         
         <div className="w-full flex flex-col md:flex-row gap-8">

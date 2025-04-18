@@ -66,13 +66,13 @@ const MCPShowcase: React.FC = () => {
     <section id="marketplace" className="z-0 w-full bg-white py-24 px-10 md:px-8">
       <div className="max-w-7xl mx-auto flex flex-col items-center">
         <div className="text-center mb-10">
-          <Badge className="w-56 text-center mb-6">Top Model Control Panels</Badge>
+          <Badge className="w-56 text-center mb-6">Top Model Context Protocols</Badge>
           <h2 className="text-4xl md:text-5xl font-semibold leading-tight">
             Discover powerful MCPs for your LLMs
           </h2>
           
           <p className="text-black text-xl font-normal leading-[31px] mt-6 max-w-2xl mx-auto">
-            Browse our curated collection of Model Control Panels that enhance your LLM capabilities across diverse use cases.
+            Browse our curated collection of Model Context Protocols that tailor your LLM responses for specific scenarios.
           </p>
         </div>
         

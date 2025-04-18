@@ -2,7 +2,7 @@ import React from "react";
 
 const LogoSection: React.FC = () => {
   return (
-    <section className="bg-white z-0 flex w-full flex-col overflow-hidden items-center justify-center p-10 max-md:max-w-full max-md:px-5">
+    <section className="bg-white z-0 flex w-full flex-col overflow-hidden items-center justify-center p-10 max-md:max-w-full max-md:px-5">       
       <div className="flex w-full max-w-[1200px] flex-col max-md:max-w-full max-md:pr-5">
         <div className="flex min-h-[82px] items-center gap-5">
           <div className="self-stretch flex min-w-60 items-stretch gap-[40px_50px] w-[838px] my-auto px-px max-md:max-w-full">

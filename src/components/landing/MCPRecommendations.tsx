@@ -16,8 +16,7 @@ const MCPRecommendations: React.FC = () => {
           </h2>
           
           <p className="text-xl leading-[31px] mt-6 max-w-2xl mx-auto">
-            Our AI analyzes your needs and suggests the perfect Model Control 
-            Panels to optimize your specific use cases and workflows.
+            Our AI analyzes your needs and suggests the perfect Model Context Protocols to optimize your specific use cases and workflows.
           </p>
         </div>
         
