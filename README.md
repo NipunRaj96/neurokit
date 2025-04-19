@@ -56,4 +56,4 @@ Built from scratch as a solo project – from product vision, UX, design, to fro
 
 I'm open to feedback, insights, and collaborations with AI engineers, product thinkers, and full-stack devs who want to help shape the future of modular LLM development.
 
-Drop a message at : nipunraj2004@gmail.com or connect on [LinkedIn](https://linkedin.com/in/nipun-kumar).
+Drop a message at : nipunraj2004@gmail.com or connect on [LinkedIn](https://linkedin.com/in/nipunkumar01).
