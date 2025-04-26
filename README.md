@@ -23,7 +23,7 @@ Whether you're a solo dev fine-tuning a chat agent or a company deploying contex
 - **Frontend**: Next.js, Tailwind CSS  
 - **Design**:  Figma  
 - **Hosting**: Vercel  
-> *(Backend , automation & infra coming soon)*
+> *(Backend , automation infra & more features coming soon)*
 
 ---
 
