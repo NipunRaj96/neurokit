@@ -52,8 +52,12 @@ Built from scratch as a solo project – from product vision, UX, design, to fro
 
 ---
 
-## 🤝 Looking to Collaborate?
+## 🔒 Project Status & Usage Restrictions
 
-I'm open to feedback, insights, and collaborations with AI engineers, product thinkers, and full-stack devs who want to help shape the future of modular LLM development.
+This project is a work in progress and is **not licensed** for any use, copying, modification, or distribution without explicit written permission from the author. All rights are reserved under copyright law.
+
+## 🤝 Interested in Collaboration?
+
+I’m open to **selective collaborations** with AI engineers, product thinkers, and full-stack developers who share a vision for modular LLM development. If you’re interested, please contact me to discuss potential contributions or feedback.
 
 Drop a message at : nipunraj2004@gmail.com or connect on [LinkedIn](https://linkedin.com/in/nipunkumar01).
