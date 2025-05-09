@@ -20,7 +20,7 @@ Whether you're a solo dev fine-tuning a chat agent or a company deploying contex
 
 ## 🧪 Tech Stack
 
-- **Frontend**: Next.js, Tailwind CSS  
+- **Frontend**: Next.js, Tailwind CSS, Firebase
 - **Design**:  Figma  
 - **Hosting**: Vercel  
 > *(Backend , automation infra & more features coming soon)*
