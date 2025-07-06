@@ -1,7 +1,7 @@
 
 # 🧠 NeuroKit
 
-**NeuroKit** is a futuristic SaaS platform that enables developers and teams to build, personalise, and scale **Model Context Protocols (MCPs)**—modular configurations that govern how LLMs behave in specific tasks, applications, and domains. ;lm;l
+**NeuroKit** is a futuristic SaaS platform that enables developers and teams to build, personalise, and scale **Model Context Protocols (MCPs)**—modular configurations that govern how LLMs behave in specific tasks, applications, and domains.
 
 Whether you're a solo dev fine-tuning a chat agent or a company deploying context-specific copilots at scale, NeuroKit empowers you with the tools to create, share, and reuse LLM behaviours—securely and efficiently.
 
